@@ -1,0 +1,62 @@
+/*   https://caniuse.com/#search=box */
+/*Things to try: (make sure to resize)
+/*  nowrap
+/*   justify-content: space-around;  */
+
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row-reverse wrap; /*Try nowrap and resize*/
+}
+
+.flex-item {
+  background: #AA00EE;
+  color: white;
+
+  border: 2px solid black;
+  padding: 5px;
+
+  width: 200px;
+  height: 150px;
+  line-height: 150px;
+
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.a {
+    background-color: green;
+    width: 100%;
+}
+
+.b{
+  background-color: yellow;
+  box-sizing: boarder-box;
+  width: 25%;
+
+}
+
+.c{
+   background-color: red;
+   box-sizing: boarder-box;
+   width: 72.7%;
+
+}
+
+.d{
+    background-color: green;
+    width: 100%;
+}
+
+/* .box {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+} */

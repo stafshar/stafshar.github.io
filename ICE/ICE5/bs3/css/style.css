@@ -1,0 +1,36 @@
+/* Bootstrap 3 ice */
+/* <div class="row">
+  <div class="box a col-12">A</div>
+  <div class="box b col-sm-3 col-sm-push-9">B</div>
+  <div class="box c col-sm-9 col-sm-pull-3">C</div>
+  <div class="box d col-12">D</div>
+</div> */
+
+
+.row{
+  width: 98%;
+}
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border: 5px solid black;
+  padding: 20px;
+  font-size: 150%;
+}
+.a {
+    background-color: green;
+}
+
+.b{
+    background-color: yellow;
+}
+
+.c{
+    background-color: red
+}
+
+.d{
+    background-color: green;
+}

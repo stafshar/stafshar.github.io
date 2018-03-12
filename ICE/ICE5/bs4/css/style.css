@@ -1,12 +1,4 @@
-/* Bootstrap 3 ice */
-/* <div class="row">
-  <div class="box a col-12">A</div>
-  <div class="box b col-sm-3 col-sm-push-9">B</div>
-  <div class="box c col-sm-9 col-sm-pull-3">C</div>
-  <div class="box d col-12">D</div>
-</div> */
-
-
+/* Bootstrap 4 ice */
 .row{
   width: 98%;
 }
@@ -25,6 +17,7 @@
 
 .b{
     background-color: yellow;
+
 }
 
 .c{

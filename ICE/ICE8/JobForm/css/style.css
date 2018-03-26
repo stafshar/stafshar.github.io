@@ -5,13 +5,13 @@ html, body, h1, form, fieldset, legend, ol, li {
 }
 body {
 	background: #ffffff;
-	color: #111111;
+	color: #6536ec;;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding: .5%;
 }
 
 form{
-	background: #502bbc;
+	background: #6536ec;
 	-moz-border-radius: 2%;
 	-webkit-border-radius: 2%;
 	border-radius: 2%;
@@ -22,7 +22,7 @@ form{
 
 /* Style the list items*/
 form ol li {
-	background: #502bbc;
+	background: #6536ec;
 	background: rgba(255,255,255,.3);
 	border-color: #e3ebc3;
 	border-color: rgba(255,255,255,.6);

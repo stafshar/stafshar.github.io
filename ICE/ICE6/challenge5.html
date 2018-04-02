@@ -43,6 +43,10 @@
 		document.getElementById('image').innerHTML = img.alt;
 		document.getElementById('image').style.backgroundImage = 'url("'+img.src +'")';
 	}
+	function hide(img) {
+			document.getElementById('image').innerHTML = img.alt;
+			document.getElementById('image').style.backgroundImage = null;
+		}
 	// I used Two functions here.  Starter idea at:
 	// https://codepen.io/ColleenEMc/pen/XmZzWw
 	</script>
@@ -55,19 +59,18 @@
 		</div>
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing" by using "onfocus", "onblur" is the opposite: -->
-		<img tabindex="1" onfocus=show(this) onblur=hide(this) onmouseover="show(this)" onmouseout="hide(this)" class = "preview"
+		<img tabindex="1" onfocus="show(this)" onblur="hide(this)" onmouseover="show(this)" onmouseout="hide(this)" class = "preview"
 			alt = "Styling with a Bandana"
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";
-			>
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";>
 
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img tabindex="3" onfocus=show(this) onblur=hide(this) onmouseover="show(this)" onmouseout="hide(this)" class = "preview"
+		<img tabindex="3" onfocus="show(this)" onblur="hide(this)" onmouseover="show(this)" onmouseout="hide(this)" class = "preview"
 			alt = "With My Boy"
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";>
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img tabindex="3" onfocus=show(this) onblur=hide(this) onmouseover="show(this)" onmouseout="hide(this)" class = "preview" tabindex = "1"
+		<img tabindex="3" onfocus="show(this)" onblur="hide(this)" onmouseover="show(this)" onmouseout="hide(this)" class = "preview" tabindex = "1"
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
 			alt = "Young Puppy";>
 </body>

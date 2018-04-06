@@ -147,12 +147,14 @@ body{
 }
 
 
-#map {
-	width:100%;
-	padding:10px;
-	height:400px;
-	align:center;
-	float:center;
+#aboutmephoto {
+	/* width:100%; */
+	/* padding:10px; */
+	margin-left: 25%;
+	margin-bottom: 150px;
+	max-height:500px;
+	height:300px;
+	text-align: center;
 }
 
 body h1{
@@ -284,9 +286,12 @@ footer {
 	padding-left:5%;
 	padding-right:5%;
 }
+#aboutmephoto {
+	margin: auto;
+}
 
 	#map{
-		width:49%;
+		width:45%;
 	}
 
 	#maparea{

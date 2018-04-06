@@ -38,8 +38,9 @@
 		</div>
 
 		<div id="maparea">
-			<h2>Cities in which I've lived:</h2>
-			<div id="map"></div>
+			<span class="myportrait">
+			<img id="aboutmephoto" src="images/aboutmephoto.png" alt="This is a photo of me presenting"/>
+		</span>
 		</div>
 	</div>
 	<br/>
@@ -47,42 +48,6 @@
 	<br/>
 	<br/>
 	<br/>
-
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxN9aP0iL_gjrvkq4FE_cfaudy2aGfkCc&callback=initMap" type="text/javascript"></script>
-
-	<script>
-		function myMap() {
-			var myCenter = new google.maps.LatLng(42.280826, -83.743038);
-			var mapCanvas = document.getElementById("map");
-			var mapOptions = {
-				center: myCenter,
-				zoom: 2
-			}
-			var map = new google.maps.Map(mapCanvas, mapOptions);
-			var marker = new google.maps.Marker({
-				position: myCenter
-			})
-			marker.setMap(map);
-			var bkk = new google.maps.LatLng(13.756331, 100.501765);
-			var marker2 = new google.maps.Marker({
-				position: bkk
-			})
-			marker2.setMap(map);
-			var ny = new google.maps.LatLng(40.712784, -74.005941);
-			var marker4 = new google.maps.Marker({
-				position: ny
-			})
-			marker4.setMap(map);
-			var bmc = new google.maps.LatLng(40.023024, -75.315177);
-			var marker5 = new google.maps.Marker({
-				position: bmc
-			})
-			marker5.setMap(map);
-
-		}
-	</script>
-	
-	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
 
 

@@ -137,8 +137,8 @@ body{
 }
 
 .bodytxt {
-	display:table-cell;
-	width:39%;
+	display: block;
+	/* width:39%; */
 	padding:10px;
 	color:white;
 	align:center;

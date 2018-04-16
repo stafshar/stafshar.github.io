@@ -3,40 +3,53 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Steph Afshar</title>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-  <!-- javascript start-->
-  <!-- <script type="text/javascript">
-    function show(img){
-      document.getElementById('icecream1').innerHTML = img.alt;
-      document.getElementById('icecream1').style.backgroundImage = 'url("'+img.src +'")';
-    }
-    function hide(img) {
-        document.getElementById('icecream1').innerHTML = img.alt;
-        document.getElementById('icecream1').style.backgroundImage = null;
-      } -->
-  <!-- // I used Two functions here.  Starter idea at:
-    // https://codepen.io/ColleenEMc/pen/XmZzWw
-    </script> -->
-  <!-- javascript ends -->
 </head>
 
 
 <body>
   <h1 id="headline">Stephanie Afshar</h1>
 
+
+
   <div id="gallery">
     <div class="photo">
-      <img class="icecream" src="images/examPic.JPG" alt="This is a photo of colleen friends">
+      <img id="photo1" src="images/examPic.JPG" alt="This is a photo of colleen friends">
     </div>
 
     <div class="photo">
-      <img class="icecream" src="images/UMSI-logo.jpg" alt="This is a photo of ice cream">
+      <img id="photo2" src="images/UMSI-logo.jpg" alt="This is a photo of ice cream">
     </div>
 
-    <button>Hide Image</button>
-    <button>Show Image</button>
+
+    <button onclick="myFunction()">Hide Image</button>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("photo1");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+
+    <button onclick="myFunction()">Show Image</button>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("photo1");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+
 
 
   </div>

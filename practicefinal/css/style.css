@@ -2,47 +2,43 @@ html {
   background: white;
   background: url('../images/sun-pattern.png') no-repeat center center fixed;
   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    box-sizing: border-box;
-
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
-#headline {
-
-}
+#headline {}
 
 .photo img {
   width: 50%;
 }
 
-@media only screen and (min-width: 768px){
-  .photo{
+@media only screen and (min-width: 768px) {
+  .photo {
     /* background: yellow; */
     border-style: solid;
-  	border-color: blue;
-  	border-width: 5px;
+    border-color: blue;
+    border-width: 5px;
     padding: 5%;
+    text-align: center;
   }
-
 }
 
-@media only screen and (min-width: 1000px){
-
-  #gallery{
+@media only screen and (min-width: 1000px) {
+  #gallery {
     display: table;
   }
-  .photo{
+  .photo {
     display: table-cell;
-    width: 50%;
     border-style: solid;
-  	border-color: blue;
-  	border-width: 5px;
+    border-color: blue;
+    border-width: 5px;
     padding: 5%;
+    width: 50%;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
-    text-align: center
+    text-align: center;
   }
 }

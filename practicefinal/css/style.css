@@ -13,8 +13,11 @@ html {
 
 @media only screen and (min-width: 768px){
   .photo{
-    background: gray;
-    font-family: arial, sans-serif;
+    /* background: yellow; */
+    border-style: solid;
+  	border-color: blue;
+  	border-width: 5px;
+    padding: 5%;
   }
 
 }
@@ -22,12 +25,17 @@ html {
 @media only screen and (min-width: 1000px){
 
   #gallery{
-    display: inline;
+    display: table;
   }
   .photo{
-    background: yellow;
-    font-family: georgia, sans-serif;
     display: table-cell;
-    width: 30%;
+    width: 50%;
+    border-style: solid;
+  	border-color: blue;
+  	border-width: 5px;
+    padding: 5%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
   }
 }

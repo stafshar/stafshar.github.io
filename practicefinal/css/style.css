@@ -1,0 +1,33 @@
+html {
+  background: white;
+
+}
+
+#headline {
+
+}
+
+.photo img {
+  width: 50%;
+}
+
+@media only screen and (min-width: 768px){
+  .photo{
+    background: gray;
+    font-family: arial, sans-serif;
+  }
+
+}
+
+@media only screen and (min-width: 1000px){
+
+  #gallery{
+    display: table;
+  }
+  .photo{
+    background: yellow;
+    font-family: georgia, sans-serif;
+    display: table-cell;
+    width: 30%;
+  }
+}

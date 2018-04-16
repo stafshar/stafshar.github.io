@@ -1,5 +1,11 @@
 html {
   background: white;
+  background: url('../images/sun-pattern.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
 
 }
 
@@ -37,5 +43,6 @@ html {
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
+    text-align: center
   }
 }
